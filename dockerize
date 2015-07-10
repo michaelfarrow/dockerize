@@ -30,3 +30,5 @@ $b2d up
 $($b2d shellinit)
 
 docker version
+
+PS1="[Docker] $PS1"
