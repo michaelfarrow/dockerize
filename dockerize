@@ -31,4 +31,8 @@ $($b2d shellinit)
 
 docker version
 
-PS1="[Docker] $PS1"
+docker_ip=$(boot2docker ip)
+
+echo "IP: $docker_ip"
+
+PS1="[Docker $docker_ip] $PS1"
